@@ -1,0 +1,300 @@
+<div class="container page-container">
+  <div class="card">
+    <div class="card-header">
+      <h1 class="float-left">User Management</h1>
+      <a class="btn btn-success btn-color text-white mx-1 float-right" data-toggle="modal"
+        data-target="#modal3">Add New User</a>
+      <a class="btn btn-success btn-color text-white mx-1 float-right"  data-toggle="modal"
+        data-target="#modal2">Upload CSV</a>
+    </div>
+    <div class="card-body">
+      <table   class="table table-hover table-striped ">
+        <thead>
+          <tr>
+            <th class="wd-5p">S.no</th>
+            <th class="wd-25p">Name</th>
+            <th class="wd-20p">Email</th>
+            <th class="wd-20p">Position</th>
+            <th class="wd-20p">Region</th>
+            <th class="wd-20p">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr  >
+            <td>1</td>
+            <td>puja</td>
+            <td>puja@gmail.com</td>
+            <td>developer</td>
+            <td>south</td>
+            <td>
+              <button class="btn btn-primary text-white mx-1  btn-icon btn-xs" data-toggle="modal" data-target="#modal3"
+                 ><i class="fas fa-edit"></i></button>
+              <button class="btn btn-danger text-white btn-icon btn-xs"  ><i
+                  class="fas fa-trash-alt"></i></button>
+            </td>
+          </tr>
+          <tr  >
+              <td>1</td>
+              <td>puja</td>
+              <td>puja@gmail.com</td>
+              <td>developer</td>
+              <td>south</td>
+              <td>
+                <button class="btn btn-primary text-white mx-1  btn-icon btn-xs" data-toggle="modal" data-target="#modal3"
+                   ><i class="fas fa-edit"></i></button>
+                <button class="btn btn-danger text-white btn-icon btn-xs"  ><i
+                    class="fas fa-trash-alt"></i></button>
+              </td>
+            </tr>
+            <tr  >
+                <td>1</td>
+                <td>puja</td>
+                <td>puja@gmail.com</td>
+                <td>developer</td>
+                <td>south</td>
+                <td>
+                  <button class="btn btn-primary text-white mx-1  btn-icon btn-xs" data-toggle="modal" data-target="#modal3"
+                     ><i class="fas fa-edit"></i></button>
+                  <button class="btn btn-danger text-white btn-icon btn-xs"  ><i
+                      class="fas fa-trash-alt"></i></button>
+                </td>
+              </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade"     role="dialog" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content tx-14">
+      <div class="modal-header">
+        <h6 class="modal-title"  >Add New User</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="inputPassword4">First Name*</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <select class="custom-select" name="title"  >
+                    <option value="" >Select Title*</option>
+                    <option></option>  
+                  </select>
+                </div>
+                <input type="text" class="form-control" placeholder="First Name *"  >
+              </div>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">Last Name*</label>
+              <input type="text" class="form-control" placeholder="Last Name"  >
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">Email*</label>
+              <input type="email" class="form-control" placeholder="Email" >
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputPassword4">Password*</label>
+              <input type="password" class="form-control" placeholder="Password"  >
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">Mobile No*</label>
+              <input type="text" class="form-control" placeholder="Mobile No *" >
+            </div>
+            <div class="form-group col-md-4 ">
+              <label for="inputEmail4">Position</label>
+              <select class="custom-select" name="user_role"  >
+                <option value="" >Select Position*</option>
+                <option > 
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="inputPassword4">Home Phone*</label>
+              <input type="text" class="form-control" placeholder="Home Phone" >
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">Business Phone*</label>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Business Phone"  >
+                <div class="input-group-append">
+                  <input type="text" class="form-control" placeholder="Buisness Extension"
+                    >
+                </div>
+              </div>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">Therapy Line*</label>
+              <select name="thrapy_name" id="therapy_line" class="form-control"  >
+                <option value="">Select Therapy Line</option>
+                <option    >
+                  </option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">Joining Date *</label>
+              <input type="date" class="form-control" placeholder="Joining Date *"  >
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputPassword4">Manager Name*</label>
+              <input type="text" class="form-control" placeholder="Manager Name *"  >
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">Region Name*</label>
+              <select name="region_id" id="region_id" class="form-control"  >
+                <option value="">Select Region</option>
+                <option    >
+                   </option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">  
+            <div class="form-group col-md-4">
+              <label for="inputPassword4">City Name*</label>
+              <select name="city_id"   class="form-control"  >
+                <option value=""  > Select City</option>
+                <option>
+                  </option>
+              </select>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">District Name*</label>
+              <select name="district_id"  class="form-control"  >
+                <option value="" >Select District</option>
+                <option>
+                 </option>
+              </select>
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputEmail4">Postal Code*</label>
+              <input type="text" class="form-control" placeholder="Postal Code "  >
+            </div>
+          </div>  
+           <div class="form-group">
+            <label for="inputAddress">Address*</label>
+            <input type="text" class="form-control"   placeholder="1234 Main St">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Notes*</label>
+            <input type="text" class="form-control"    placeholder="Any extra notes here">
+          </div>
+          <div class="form-group">
+            <label for="inputAddress2">Activate/Deactivate</label>
+             <!-- <p-inputSwitch class="form-control text-center"   required></p-inputSwitch>   -->
+           </div>
+          <button type="submit" class="text-center btn btn-primary text-center"  >Submit
+            Form</button>
+        </form> 
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content tx-14">
+      <div class="modal-header">
+        <h6 class="modal-title" id="exampleModalLabel2">Upload CSV</h6>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input type="file" id="file" class="for mx-1 float-right"  >
+      </div>
+      <div class="modal-footer">
+        <div class="float-left text-left">
+          <a href="" class="float-left text-left">Download Sample CSV</a>
+        </div>
+        <button type="button" class="btn btn-secondary tx-13"   data-dismiss="modal">Close</button>
+        <button class="btn btn-primary" type="button" disabled  >
+          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+          Uploading...
+        </button>
+        <button type="button" class="btn btn-primary tx-13"  > Upload</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- <form>
+    <div class="form-group">
+      <label for="exampleInputEmail1" class="bmd-label-floating">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1">
+      <span class="bmd-help">We'll never share your email with anyone else.</span>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1" class="bmd-label-floating">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="form-group">
+      <label for="exampleSelect1" class="bmd-label-floating">Example select</label>
+      <select class="form-control" id="exampleSelect1">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleSelect2" class="bmd-label-floating">Example multiple select</label>
+      <select multiple class="form-control" id="exampleSelect2">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleTextarea" class="bmd-label-floating">Example textarea</label>
+      <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputFile" class="bmd-label-floating">File input</label>
+      <input type="file" class="form-control-file" id="exampleInputFile">
+      <small class="text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+        Option one is this and that&mdash;be sure to include why it's great
+      </label>
+    </div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+        Option two can be something else and selecting it will deselect option one
+      </label>
+    </div>
+    <div class="radio disabled">
+      <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+        Option three is disabled
+      </label>
+    </div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox"> Check me out
+      </label>
+    </div>
+    <button class="btn btn-default">Cancel</button>
+    <button type="submit" class="btn btn-primary btn-raised">Submit</button>
+  </form> -->

@@ -1,0 +1,28 @@
+.page-container{
+  margin-right: 5em;
+  margin-left: 5em;
+  margin-top: 2rem;
+}
+.full-width-table {
+  width: 100%;
+}
+.the{
+  background-color:mediumseagreen;
+  margin: 3px;
+  font-size:25px;
+}
+.tde{
+  margin-top: 2rem;
+}
+.ic{
+  margin-right: 1px;
+}
+
+.fas{
+  margin: 0px 8% 0px 8%; 
+  /* font-size: 5px; */
+}
+.fab{
+  margin: 0px 8% 0px 8%; 
+  /* font-size: 5px; */
+}

@@ -1,0 +1,24 @@
+.menu-container{
+    margin-left: 20%;
+    font-family:  Arial;
+}
+.menu{
+    background-color: white !important;
+}
+
+.di{
+    margin-left: 600px;
+}
+.in{
+    
+     
+    padding-right: 300px;
+ 
+    
+}
+
+.bu{
+    padding-right:100px;
+    float: right;
+       margin-left: 40px;
+}

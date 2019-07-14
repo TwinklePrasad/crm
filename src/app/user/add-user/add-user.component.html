@@ -1,0 +1,193 @@
+<!-- <div class="example-container">
+    <form class="example-container" [formGroup]="options">
+      <mat-checkbox formControlName="hideRequired">Hide required marker</mat-checkbox>
+      <div>
+        <label>Float label: </label>
+        <mat-radio-group formControlName="floatLabel">
+          <mat-radio-button value="auto">Auto</mat-radio-button>
+          <mat-radio-button value="always">Always</mat-radio-button>
+          <mat-radio-button value="never">Never</mat-radio-button>
+        </mat-radio-group>
+      </div>
+    </form>
+  
+    <mat-form-field
+        [hideRequiredMarker]="options.value.hideRequired"
+        [floatLabel]="options.value.floatLabel">
+      <input matInput placeholder="Simple placeholder" required>
+    </mat-form-field>
+  
+    <mat-form-field [floatLabel]="options.value.floatLabel">
+      <mat-label>Both a label and a placeholder</mat-label>
+      <input matInput placeholder="Simple placeholder">
+    </mat-form-field>
+  
+    <mat-form-field
+        [hideRequiredMarker]="options.value.hideRequired"
+        [floatLabel]="options.value.floatLabel">
+      <mat-select required>
+        <mat-option>-- None --</mat-option>
+        <mat-option value="option">Option</mat-option>
+      </mat-select>
+      <mat-label><mat-icon>favorite</mat-icon> <b> Fancy</b> <i> label</i></mat-label>
+    </mat-form-field>
+  </div>
+   -->
+
+
+
+
+   <div id="sidebarMenu" class="sidebar sidebar-fixed sidebar-components back">
+    <div class="sidebar-header">
+      <a href="" id="mainMenuOpen"><i data-feather="menu"></i></a>
+      <h5>Components</h5>
+      <a href="" id="sidebarMenuClose"><i data-feather="x"></i></a>
+    </div><!-- sidebar-header -->
+    <div class="sidebar-body con">
+      <ul class="sidebar-nav">
+        <button type="button" class="btn btn-danger mg-b-25" >add New Enquiry</button>
+        <li class="nav-item mg-b-25 text"><a href="index.html" class="nav-link"><i data-feather="layout"></i>Create Today</a></li>
+        <li class="nav-item mg-b-25"><a href="grid.html" class="nav-link"><i data-feather="grid"></i>Update Todat</a></li>
+          <li class="nav-item mg-b-25">
+          <a href="" class="nav-link  "><i data-feather="layers"></i>Active</a> </li>  
+        <li class="nav-item  mg-b-25">
+          <a href="" class="nav-link  "><i data-feather="package"></i>Lead</a></li> 
+          <li class="nav-item  mg-b-25">
+          <a href="" class="nav-link "><i data-feather="inbox"></i>Dropped</a> </li>  
+         <li class="nav-item  ">
+          <a href="" class="nav-link  "><i data-feather="pie-chart"></i>Total</a></li>  
+          
+      </ul>
+    </div><!-- sidebar-body -->
+  </div><!-- sidebar -->
+
+
+ 
+    
+      
+      <!-- <button type="button" class="btn btn-success mg-b-25">All Enquiry</button>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col"></th>
+            <th scope="col">Details</th>
+            <th scope="col">Enquiry Type</th>
+            <th scope="col">Last Update</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Adrian Monino</td>
+            <td>Front-End Engineer</td>
+            <td>Computer Science</td>
+            <td>$120,000</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Socrates Itumay</td>
+            <td>Software Engineer</td>
+            <td>Computer Engineering</td>
+            <td>$150,000</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Reynante Labares</td>
+            <td>Product Manager</td>
+            <td>Business Management</td>
+            <td>$250,000</td>
+          </tr>
+        </tbody>
+      </table> -->
+
+
+
+
+
+
+
+      <div class="page-container">
+  
+    <mat-card class="the bg-dark">
+
+      <div class="row text-white">
+        <div class="col-lg-3">
+          Details
+        </div>
+        <div class="col-lg-3">
+            Enquirt-Type
+          </div>
+          <div class="col-lg-3">
+              Last-Update
+            </div>
+            <div class="col-lg-3" >
+                <i class="fab fa-whatsapp"></i>
+
+                <i class="far fa-envelope"></i>
+  <i class="fas fa-users"></i>
+  
+              </div>
+</div>
+</mat-card>
+<mat-card>
+
+
+  <mat-grid-list cols="4" rowHeight="4:1">
+    
+      <div class="row">
+          <div class="col-lg-3">
+            <h5><u>Puja Kumari</u></h5><br>
+            
+             
+            Address:sec-16,noida<br><br>
+            
+            <a href="tel:8539030668"> <i class="fa fa-phone"></i>  +918539030668</a>
+          </div>
+          <div class="col-lg-3">
+              Customer
+            </div>
+            <div class="col-lg-3">
+                Enquiry-Type
+              </div>
+              <div class="col-lg-3">
+                   
+                </div>
+  </div>
+  </mat-grid-list>
+  
+
+</mat-card>
+
+
+<mat-card class="tde">
+
+
+    <mat-grid-list cols="4" rowHeight="4:1">
+      
+        <div class="row">
+            <div class="col-lg-3">
+                <h5><u>Anjali Kumari</u></h5><br>
+                Address:sec-16,noida<br><br>
+                <a href="tel:8539030668"> <i class="fa fa-phone"></i>  +918539030668</a>
+              
+            </div>
+            <div class="col-lg-3">
+                Customer
+              </div>
+              <div class="col-lg-3">
+                  Enquiry-Type
+                </div>
+                <div class="col-lg-3">
+                     
+                  </div>
+    </div>
+    </mat-grid-list>
+    </mat-card>
+
+
+
+
+     
+   

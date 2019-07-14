@@ -1,0 +1,78 @@
+/* .example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-container > * {
+    width: 100%;
+  }
+  
+  .example-container form {
+    margin-bottom: 20px;
+  }
+  
+  .example-container form > * {
+    margin: 5px 0;
+  }
+  
+  .example-container .mat-radio-button {
+    margin: 0 12px;
+  }
+   */
+
+   .back{
+     background-color: white;
+   }
+
+   .card{
+     margin: 50px;
+     margin-left: 330px;
+   }
+   .con{
+     margin: 10px;
+   }
+   .sid{
+     font-size: 30px;
+   }
+   .text{
+     /* font-style:oblique; */
+     font-size: 200px;
+   }
+
+
+
+ 
+
+
+
+
+   .page-container{
+    margin-right: 4em;
+    margin-left: 22em;
+    margin-top: 2rem;
+  }
+  .full-width-table {
+    width: 100%;
+  }
+  .the{
+    /* background-color:rgb(108, 132, 201); */
+    font-size:13px;
+     
+  }
+  .tde{    
+
+    margin-top: 2rem;
+  }
+  .ic{
+    margin-right: 1px;
+  }
+  
+  .fas{
+    margin: 0px 8% 0px 8%; 
+    /* font-size: 5px; */
+  }
+  .fab{
+    margin: 0px 8% 0px 8%; 
+    /* font-size: 5px; */
+  }
+   

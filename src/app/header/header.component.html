@@ -1,0 +1,48 @@
+<mat-toolbar   class="menu"> 
+    <div class="navbar-brand">
+        <a routerLink="home" class="df-logo">dash<span>forge</span></a>
+      </div><!-- navbar-brand -->
+
+        <div class="menu-container">
+            <button mat-button [matMenuTriggerFor]="aboveMenu">User</button>
+            <mat-menu #aboveMenu="matMenu" yPosition="above">
+              <a mat-menu-item routerLink="./user-right">User-List</a>
+              <button mat-menu-item routerLink="add-user">Add-user</button>
+            </mat-menu>
+            
+            <button mat-button [matMenuTriggerFor]="belowMenu">Lead Management</button>
+            <mat-menu #belowMenu="matMenu" yPosition="below">
+              <button mat-menu-item routerLink="enquiry">Enquiry</button>
+              <button mat-menu-item  routerLink="lead">Lead</button>
+            </mat-menu>
+            
+            <button mat-button [matMenuTriggerFor]="beforeMenu">Before</button>
+            <mat-menu #beforeMenu="matMenu" xPosition="before">
+              <button mat-menu-item>Item 1</button>
+              <button mat-menu-item>Item 2</button>
+            </mat-menu>
+            
+            
+            <button mat-button [matMenuTriggerFor]="afterMenu">After</button>
+            <mat-menu #afterMenu="matMenu" xPosition="after">
+              <button mat-menu-item>Item 1</button>
+              <button mat-menu-item>Item 2</button>
+            </mat-menu>
+            
+        </div>    
+      </mat-toolbar>
+      
+
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <form class="form-inline" action="/action_page.php">
+           <div class="di">
+              <input class="form-control mr-sm-5 in" type="text" placeholder="Search">
+            <button class="btn btn-success bu" type="submit">Search</button>
+           </div>
+            
+          </form>
+        </nav>
+
+
+
+      <router-outlet></router-outlet>
